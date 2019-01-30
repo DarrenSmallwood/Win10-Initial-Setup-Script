@@ -31,7 +31,7 @@ DisableWAPPush                  # EnableWAPPush
 # DisableRecentFiles            # EnableRecentFiles
 
 ### Security Tweaks ###
-# SetUACLow                     # SetUACHigh
+SetUACLow                       # SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
 DisableAdminShares              # EnableAdminShares
 # DisableSMB1                   # EnableSMB1
@@ -87,7 +87,7 @@ DisableActionCenter             # EnableActionCenter
 DisableLockScreen               # EnableLockScreen
 # DisableLockScreenRS1          # EnableLockScreenRS1
 HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
-HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
+# HideShutdownFromLockScreen    # ShowShutdownOnLockScreen
 # DisableAeroShake              # EnableAeroShake
 DisableStickyKeys               # EnableStickyKeys
 ShowTaskManagerDetails          # HideTaskManagerDetails
@@ -95,7 +95,7 @@ ShowFileOperationsDetails       # HideFileOperationsDetails
 # EnableFileDeleteConfirm       # DisableFileDeleteConfirm
 HideTaskbarSearch               # ShowTaskbarSearchIcon         # ShowTaskbarSearchBox
 HideTaskView                    # ShowTaskView
-ShowSmallTaskbarIcons           # ShowLargeTaskbarIcons
+# ShowSmallTaskbarIcons         # ShowLargeTaskbarIcons
 SetTaskbarCombineWhenFull       # SetTaskbarCombineNever        # SetTaskbarCombineAlways
 HideTaskbarPeopleIcon           # ShowTaskbarPeopleIcon
 ShowTrayIcons                   # HideTrayIcons
@@ -113,7 +113,7 @@ SetVisualFXPerformance          # SetVisualFXAppearance
 # EnableNumlock                 # DisableNumlock
 # DisableEnhPointerPrecision    # EnableEnhPointerPrecision
 # SetSoundSchemeNone            # SetSoundSchemeDefault
-# DisableStartupSound           # EnableStartupSound
+DisableStartupSound             # EnableStartupSound
 # DisableChangingSoundScheme    # EnableChangingSoundScheme
 
 ### Explorer UI Tweaks ###
@@ -131,11 +131,11 @@ HideQuickAccess                 # ShowQuickAccess
 ShowThisPCOnDesktop             # HideThisPCFromDesktop
 # ShowUserFolderOnDesktop       # HideUserFolderFromDesktop
 # ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
-HideDesktopFromThisPC           # ShowDesktopInThisPC
+# HideDesktopFromThisPC         # ShowDesktopInThisPC
 # HideDesktopFromExplorer       # ShowDesktopInExplorer
-HideDocumentsFromThisPC         # ShowDocumentsInThisPC
+# HideDocumentsFromThisPC       # ShowDocumentsInThisPC
 # HideDocumentsFromExplorer     # ShowDocumentsInExplorer
-HideDownloadsFromThisPC         # ShowDownloadsInThisPC
+# HideDownloadsFromThisPC       # ShowDownloadsInThisPC
 # HideDownloadsFromExplorer     # ShowDownloadsInExplorer
 HideMusicFromThisPC             # ShowMusicInThisPC
 # HideMusicFromExplorer         # ShowMusicInExplorer
